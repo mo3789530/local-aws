@@ -11,6 +11,7 @@ tfenv use 1.0.7
 
 # Run terrafrom 
 ```
+export TF_VAR_bucket_name=<bucket_name>
 terraform init
 terraform plan 
 terraform apply
